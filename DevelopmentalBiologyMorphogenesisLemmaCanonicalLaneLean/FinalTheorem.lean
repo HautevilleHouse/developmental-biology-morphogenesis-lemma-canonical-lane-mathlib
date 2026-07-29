@@ -1,0 +1,19 @@
+import canonicalLaneMathlib.AdmissibleClass
+import DevelopmentalBiologyMorphogenesisLemmaCanonicalLaneLean.MorphogenGradient
+import DevelopmentalBiologyMorphogenesisLemmaCanonicalLaneLean.GeneRegulatoryNetwork
+import DevelopmentalBiologyMorphogenesisLemmaCanonicalLaneLean.CellCellAdhesion
+import DevelopmentalBiologyMorphogenesisLemmaCanonicalLaneLean.TissueMorphogenesis
+import DevelopmentalBiologyMorphogenesisLemmaCanonicalLaneLean.SignalTransduction
+
+namespace HautevilleHouse
+namespace DevelopmentalBiologyMorphogenesisLemmaCanonicalLaneLean
+
+def ConstrainedDevelopmentalBiologyMorphogenesisLemmaClosure (A : AdmissibleClass) : Prop :=
+  bridgeClosed A ∧ gateClosed A
+
+theorem constrained_developmental_biology_morphogenesis_lemma_endgame (A : AdmissibleClass) :
+    ConstrainedDevelopmentalBiologyMorphogenesisLemmaClosure A := by
+  exact And.intro (bridge_from_admissible_class A) (gate_from_admissible_class A)
+
+end DevelopmentalBiologyMorphogenesisLemmaCanonicalLaneLean
+end HautevilleHouse
